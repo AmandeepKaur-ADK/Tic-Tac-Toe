@@ -1,0 +1,39 @@
+#head{
+    text-align: center;
+    font-size: 50px;
+}
+#gamecontainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 70px;
+    text-align: center;
+    font: 300;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+}
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+
+}
+#status{
+    margin: 15px;
+    padding: 5px;
+}
+#reset{
+    padding: 5px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 2px solid;
+    font: bold;
+    cursor: pointer;
+}
